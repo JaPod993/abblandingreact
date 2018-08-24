@@ -26,3 +26,342 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+@font-face {
+  font-family: ABBvoice;
+  src: url("/fonts/ABBvoice.woff2") format("woff2");
+}
+/* line 22, ../compass/sass/_jp.scss */
+body {
+  color: #262626;
+  font-family: 'ABBvoice', Verdana, Arial ,sans-serif;
+  font-weight: 400;
+}
+
+/* line 27, ../compass/sass/_jp.scss */
+.outer-bg {
+  background-color: white;
+}
+
+/* line 31, ../compass/sass/_jp.scss */
+.inner-bg {
+  background-color: white;
+  padding: 0;
+}
+
+/* line 36, ../compass/sass/_jp.scss */
+.navbar-default {
+  border: none;
+  background-color: white;
+}
+
+/* line 41, ../compass/sass/_jp.scss */
+.logo {
+  height: 33px;
+}
+
+/* line 45, ../compass/sass/_jp.scss */
+.navbar-brand {
+  padding: 40px 15px 15px 0!important;
+}
+
+/* line 50, ../compass/sass/_jp.scss */
+.abb-menu li a {
+  font-family: 'ABBvoice', Verdana, Arial ,sans-serif;
+  font-weight: 400;
+  padding: 58px 10px 0 10px !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+}
+/* line 57, ../compass/sass/_jp.scss */
+.abb-menu li a:hover {
+  color: #ff000f !important;
+}
+
+/* line 63, ../compass/sass/_jp.scss */
+nav.navbar {
+  height: 80px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+/* line 69, ../compass/sass/_jp.scss */
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+/* line 73, ../compass/sass/_jp.scss */
+.position-menu {
+  padding-left: 0;
+}
+
+/* line 77, ../compass/sass/_jp.scss */
+.section-title {
+  font-size: 32px;
+  font-family: 'ABBvoice', Verdana, Arial ,sans-serif;
+  font-weight: 700;
+}
+/* line 80, ../compass/sass/_jp.scss */
+.section-title:before {
+  content: " ";
+  height: 0.15em;
+  width: 1em;
+  background-color: #ff000f;
+  display: block;
+  margin-bottom: .4em;
+}
+
+/* line 90, ../compass/sass/_jp.scss */
+.slogan {
+  color: #ff000f;
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+/* line 98, ../compass/sass/_jp.scss */
+.paragraph {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* line 103, ../compass/sass/_jp.scss */
+.footer-wrapper,
+.joinus,
+.foryou,
+.about,
+.header {
+  padding: 100px 15px 0 15px;
+}
+
+/* line 111, ../compass/sass/_jp.scss */
+.mini-pad {
+  padding-top: 40px;
+}
+
+/* line 115, ../compass/sass/_jp.scss */
+.asset-pad {
+  padding: 40px 0 0 0;
+}
+
+/* line 119, ../compass/sass/_jp.scss */
+.box-pad {
+  padding: 5px;
+}
+
+/* line 123, ../compass/sass/_jp.scss */
+.extra-pad {
+  padding-bottom: 40px;
+}
+
+/* line 127, ../compass/sass/_jp.scss */
+.box-parahraph {
+  font-size: 20px;
+  line-height: 25px;
+  padding: 8px;
+  margin: 0;
+}
+
+/* line 134, ../compass/sass/_jp.scss */
+.post-wrapp {
+  background-color: #f6f6f6;
+}
+
+/* line 139, ../compass/sass/_jp.scss */
+a .box-parahraph {
+  color: #262626;
+  text-decoration: none !important;
+  transition: all 300ms;
+}
+/* line 145, ../compass/sass/_jp.scss */
+a:hover .box-parahraph {
+  color: #ff000f;
+  text-decoration: none !important;
+}
+
+/* line 153, ../compass/sass/_jp.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 157, ../compass/sass/_jp.scss */
+.join-bg {
+  background-color: #f6f6f6;
+  padding-top: 40px;
+}
+
+/* line 162, ../compass/sass/_jp.scss */
+.little-pad {
+  padding-top: 15px;
+}
+
+/* line 166, ../compass/sass/_jp.scss */
+.join-btn {
+  display: block;
+  margin: 15px auto;
+  background-color: #ff000f;
+  border-radius: 25px;
+  border: none;
+  padding: 5px;
+}
+/* line 173, ../compass/sass/_jp.scss */
+.join-btn a {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+/* line 180, ../compass/sass/_jp.scss */
+.social-btn {
+  display: block;
+  margin: 15px auto;
+  background-color: #ffffff80;
+  border-radius: 25px;
+  border: none;
+  padding: 5px;
+}
+/* line 187, ../compass/sass/_jp.scss */
+.social-btn a {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+/* line 194, ../compass/sass/_jp.scss */
+.text-pad {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* line 199, ../compass/sass/_jp.scss */
+.text-col-1 {
+  padding-left: 40px;
+  padding-right: 15px;
+}
+
+/* line 204, ../compass/sass/_jp.scss */
+.text-col-2 {
+  padding-left: 15px;
+  padding-right: 40px;
+}
+
+/* line 209, ../compass/sass/_jp.scss */
+.footer-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 214, ../compass/sass/_jp.scss */
+.footer-bg {
+  background: url("/images/stopka.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 224, ../compass/sass/_jp.scss */
+.footer-title {
+  text-align: center;
+  color: white;
+}
+
+/* line 229, ../compass/sass/_jp.scss */
+.footer-paragraph {
+  text-align: center;
+  color: white;
+}
+
+/* line 234, ../compass/sass/_jp.scss */
+.social-img {
+  padding: 3px;
+  height: 55px;
+}
+
+/* line 239, ../compass/sass/_jp.scss */
+.social-icons-wrapp {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+/* line 246, ../compass/sass/_jp.scss */
+a:hover .social-img {
+  color: yellow;
+}
+
+@media (min-width: 1350px) {
+  /* line 7, ../compass/sass/responsive.scss */
+  .container {
+    width: 1280px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 14, ../compass/sass/responsive.scss */
+  .footer-wrapper, .joinus, .foryou, .about, .header {
+    padding: 50px 15px 0 15px;
+  }
+
+  /* line 17, ../compass/sass/responsive.scss */
+  .footer-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  /* line 21, ../compass/sass/responsive.scss */
+  .text-col-2,
+  .text-col-1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* line 26, ../compass/sass/responsive.scss */
+  .movie-pad {
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 36, ../compass/sass/responsive.scss */
+  .inner-bg {
+    padding: 0 40px;
+  }
+
+  /* line 39, ../compass/sass/responsive.scss */
+  .outer-bg {
+    background-color: #f6f6f6;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 45, ../compass/sass/responsive.scss */
+  .navbar-brand {
+    padding: 40px 15px 15px 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 51, ../compass/sass/responsive.scss */
+  .footer-wrapper, .joinus, .foryou, .about, .header {
+    padding: 30px 15px 0 15px;
+  }
+
+  /* line 54, ../compass/sass/responsive.scss */
+  .text-pad {
+    padding: 0;
+  }
+
+  /* line 57, ../compass/sass/responsive.scss */
+  p.slogan {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.navbar-default {
+  background-image: none!important;
+  box-shadow: none!important;
+  border: none!important;
+  border-radius: 0!important;
+  background-color: transparent!important;
+}
