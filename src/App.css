@@ -254,7 +254,7 @@ a:hover {
 
 /* line 214, ../compass/sass/_jp.scss */
 .footer-bg {
-  background: url("/images/stopka.jpg");
+  background: url("images/stopka.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;

@@ -13,9 +13,9 @@ class Navbar extends Component {
                             </a>
                         </div>
                         <ul className="nav navbar-nav abb-menu hidden-xs">
-                            <li><a href="">O Nas</a></li>
-                            <li><a href="">Dla Ciebie</a></li>
-                            <li><a href="">Dołącz do nas</a></li>
+                            <li><a href="#about">O Nas</a></li>
+                            <li><a href="#foryou">Dla Ciebie</a></li>
+                            <li><a href="#joinus">Dołącz do nas</a></li>
                         </ul>
                     </div>
                 </div>
